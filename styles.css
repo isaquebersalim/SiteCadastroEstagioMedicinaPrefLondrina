@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f1f1f1;
+  }
+  header img {
+    height: 80px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  nav a {
+    padding: 0.5rem 1rem;
+    background-color: #2f4f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  section {
+    display: none;
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+  }
+  section.active {
+    display: block;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button.submit {
+    padding: 0.6rem;
+    background-color: #2f4f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
